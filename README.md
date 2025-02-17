@@ -1,15 +1,4 @@
 # QuanLyNhanSu-TYP
-
-tạo 1 file .env và thêm thông tin về db vào trong:
-    DATABASE_HOSTNAME=localhost
-    DATABASE_PORT=5432
-    DATABASE_PASSWORD=
-    DATABASE_NAME=
-    DATABASE_USERNAME=
-    SECRET_KEY=88b9b6bac6513009057d937bae38d297b5290153f90864b0f9b0ddbaa1036ebf
-    ALGORITHM=HS256
-    ACCESS_TOKEN_EXPIRE_MINUTES=60
-
 tải thư viện bằng câu lệnh: pip install -r requirements.txt
 cách tạo (cập nhật) db postgresql bằng alembic: alembic upgrade head
 
